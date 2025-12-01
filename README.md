@@ -29,7 +29,7 @@ text[i] = ((text[i]- 'A' + shift) % 26) + 'A';
 }
 int main()
 {
-char text[] = "VEMBARASI";
+char text[] = "JOHN";
 caesarCipher(text, 3);
 printf("Encrypted Message: %s\n", text);
 caesarCipher(text,-3);
